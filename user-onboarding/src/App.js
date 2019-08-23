@@ -1,6 +1,4 @@
 import React from 'react';
-import { ReactDOM } from 'react-dom';
-import * as Yup from 'yup';
 
 import LoginForm from './Components/LoginForm.js';
 
@@ -15,7 +13,9 @@ function App() {
         <h1>welcome to our Login!</h1>
       </div>
     </header>
+    <div className="login-container">
     <LoginForm/>
+    </div>
     </div>
   );
 }
