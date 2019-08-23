@@ -42,6 +42,7 @@ li {
 button {
     background: #282c34;
     color: rgb(85, 108, 240);
+    margin: 5px;
 }
 
 .App-link {
